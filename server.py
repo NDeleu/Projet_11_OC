@@ -96,5 +96,4 @@ app = create_app({"TESTING": False},
                  loadClubs())
 
 if __name__ == "__main__":
-    # don t check for test coverage
     app.run()
